@@ -1,0 +1,39 @@
+.mobile-mode{
+    display: none;
+}
+
+.remaining{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.desktop-test-block{
+    height: 100%;
+}
+
+.desktop-test{
+    height:95%;
+}
+
+.question-text{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width: 993px){
+    .desktop-mode{
+        display: none;
+    }
+
+    .mobile-mode{
+        display: block;
+    }
+
+    .desktop-test-block{
+        height: auto;
+    }
+
+    .desktop-test{
+        height: auto;
+    }
+}
